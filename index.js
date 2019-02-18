@@ -3,14 +3,14 @@ var server = express();
 
 var port = process.env.PORT || 8080;
 
-server.use(express.static(__dirname+'/public'));
+server.use(express.static(__dirname));
 
 server.get('/', function(request, response){
-  response.sendFile('home-portfolio-minimal.html', {root: __dirname});
+  response.sendFile('index.html', {root: __dirname});
 });
 
 server.get('/#about', function(request, response){
-  response.sendFile('home-portfolio-minimal.html', {root: __dirname});
+  response.sendFile('index.html', {root: __dirname});
 });
 
 server.listen(port, function(){
