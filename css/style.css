@@ -2833,7 +2833,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .hermes .tp-bullet::after {box-shadow: 0 0 0 0 #fff inset;}
 
 /* slider height */
-.slider-half-small-screen {min-height:630px}
+.slider-half-small-screen {min-height:400px}
 .slider-half-screen {min-height:765px}
 .slider-medium-screen {min-height:898px}
 
