@@ -1,4 +1,6 @@
 # Personal portfolio in the works
+### Live website
+Check out the live webpage at https://zuidigz.github.io/
 ### How to run locally
 Make sure you have the entire folder forked and navigate to the directory.
 Install node.js and express on your computer. If you have homebrew you can use the following command
