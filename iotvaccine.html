@@ -53,7 +53,7 @@
                 <!-- Start Header Navigation -->
                 <div class="row">
                     <div class="col-md-4 hidden-xs text-left">
-                        <a href="index.html" class="logo"><img src="public/images/ZD.png" alt="Pofo"></a></div>
+                        <a href="index.html" class="logo"><img src="public/images/ZD.png" ></a></div>
                     <!-- <div class="col-md-4 text-right xs-text-middle">
                         <a class="logo" href="index.html"><img src="public/images/ZDlight.png"></a>
                     </div> -->
@@ -84,28 +84,189 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom">
-                        <h3 class="alt-font font-weight-600 text-extra-dark-gray">Vaccine Temperature Tracker</h3>
+                        <h3 class="alt-font font-weight-300 text-extra-dark-gray">Vaccine Temperature Tracker</h3>
                         <!-- <p class="text-large text-medium-gray">Through Duke wnefewk, this project is </p> -->
                     </div>
                 </div>
             </div>
         </section>
         <!-- end project overview section -->
-        <section class="wow fadeIn">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-10 col-xs-12 center-col text-center last-paragraph-no-margin margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom">
-                        <h3 class="alt-font font-weight-600 text-extra-dark-gray">Coming Soon..... </h3>
-                        <!-- <p class="text-large text-medium-gray">Through Duke wnefewk, this project is </p> -->
+
+        <!-- start according section section -->
+        <section class="bg-extra-dark-gray border-none no-padding wow fadeIn">
+            <div class="container-fluid">
+                <div class="row equalize sm-equalize-auto">
+                    <div class="col-md-6 col-sm-12 col-xs-12 display-table wow fadeIn">
+                        <div class="display-table-cell-vertical-middle padding-thirteen-all md-padding-ten-all sm-padding-six-all xs-padding-50px-tb xs-no-padding-lr">
+                            <h5 class="alt-font text-white sm-text-center margin-eight-bottom font-weight-600"><span class="font-weight-300 display-block xs-margin-three-bottom">Real-time GPS and temperature tracking through an</span> IoT Integrated Vaccine Carrier</h5>
+                            <div class="panel-group accordion-style1" id="accordion-design">
+                                <!-- start accordion item -->
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion-design" href="#design1" class="collapsed" aria-expanded="false"><div class="panel-title font-weight-500 text-white text-uppercase">Problem and Background<span class="pull-right"><i class="ti-minus"></i></span></div></a>
+                                    </div>
+                                    <div id="design1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                          While global immunization rates have risen significantly in the past decade, 36% of the effective shelf life of six of the most administered vaccines spoil due to inefficient vaccine storage. Cold-chain vaccines must be stored between 2oC - 8oC. However, keeping vaccines at its viable temperature is a challenge for regions with high temperatures that lack the correct refrigeration infrastructure. Furthermore, the cold-chain supply chain proves to be a challenge not only at the site of administration and storage of the vaccines but also during the transportation of the products. Last-mile delivery is usually done by hand, with a health employer carrying the vaccine carrier box to the administration site. No current system allows real-time temperature monitoring to ensure that the vaccines are viable at the final delivery point and to understand where the cold-chain cycle breaks.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end accordion item -->
+                                <!-- start accordion item -->
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion-design" href="#design2" class="collapsed" aria-expanded="false"><div class="panel-title font-weight-500 text-white text-uppercase">My Interest<span class="pull-right"><i class="ti-plus"></i></span></div></a>
+                                    </div>
+                                    <div id="design2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          Before coming to Duke, I enrolled in the Global Health FOCUS program, a year-long live-in and learning community, in order to help understand how the current challenges faced in global health epidemics are being combated. Through a class on designing for the developing world, I was shocked to find out that a majority of health equipment donated to developing nations goes to waste due to a lack of maintenance. I wanted to focus and learn more about how to design in developing economies, with solutions that are technologically savvy but also useful and viable in that environment. At the same time, I wanted to explore the idea of innovation based on user need for a particular community rather than making something new  because it is new. During my sophomore year at Duke, I was fortunate to take a class called Transcontinental Design, where I spearheaded the creation of a vaccine tracker alongside a team of engineers from Duke and Makerere University in Kampala. I was later able to travel to Uganda to establish partnerships and test the device through funding from Duke Bass connections and then distinguished as a Pratt Grand Challenge Scholar for my continued contributions. I have also received Red Hat’s 2019 Woman in Open Source Award for the code behind this project.
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end accordion item -->
+                                <!-- start accordion item -->
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion-design" href="#design3" class="collapsed" aria-expanded="false"><div class="panel-title font-weight-500 text-white text-uppercase">Product Details<span class="pull-right"><i class="ti-plus"></i></span></div></a>
+                                    </div>
+                                    <div id="design3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          The product is a simple micro-controller with GPS capabilities and an attached temperature sensor. By utilizing the Google Maps API created by Particle Electron, data can be uploaded in real-time to the cloud by connecting to the nearest cellular towers. In Uganda and many developing nations, cell-service is quite prevalent, allowing for this real-time solution to be possible. At the same time, data is first stored on an SD card before being uploaded to the cloud in case of lack of cell service at a given time-point. The temperature probe checks the temperature within the vaccine carrier, stores it on the SD card, and then uploads it to the cloud. This data is then connected to a javascript app that looks like a map and tracks each point of travel along with its temperature of the vaccine carrier. When the vaccine carrier’s temperature is close to out of range, an alert is given. Through the usage of one device per vaccine carrier, a network of temperatures and vaccine movement is created.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end accordion item -->
+                                <!-- start accordion item -->
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion-design" href="#design4" class="collapsed" aria-expanded="false"><div class="panel-title font-weight-500 text-white text-uppercase">Open Soruce Contribution<span class="pull-right"><i class="ti-plus"></i></span></div></a>
+                                    </div>
+                                    <div id="design4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          I created a toolkit platform as part of our solution to visualize what the web app portion of the solution will look like. To make this project possible open sourced libraries from Particle Electron and Adafruit parts were used. All my contributions in creating the hardware code as well as the backend and frontend of the javascript app are available publicly on GitHub.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end accordion item -->
+                                <!-- start accordion item -->
+                                <div class="panel">
+                                    <div class="panel-heading">
+                                        <a data-toggle="collapse" data-parent="#accordion-design" href="#design5" class="collapsed" aria-expanded="false"><div class="panel-title font-weight-500 text-white text-uppercase">Field Testing in Uganda<span class="pull-right"><i class="ti-plus"></i></span></div></a>
+                                    </div>
+                                    <div id="design5" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          In Spring of 2017, I was able to travel to Kampala, Uganda for two weeks to assess interest in the product as well as conduct a preliminary field test of the product. Through meeting various leads in pharmaceutical companies, heads of NGOs, health officials, and doctors in the area—our team garnered interest in our product and established partnerships with key organizations and stakeholders, allowing for the products’ eventual launch in the region. We were also able to field test the vaccine carrier tracker by using it in action from a health center in Wakiso, Uganda to a delivery spot. Later looking at the data, and proving the efficacy of our real-time tracking In a simulated setting. This was a successful test and proved the usefulness of the device.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end accordion item -->
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 cover-background sm-height-500px xs-height-350px wow fadeIn" style="background:url('public/images/laptop.jpg')"></div>
                 </div>
             </div>
         </section>
+        <!-- end according section -->
 
-        <!-- Add vaccinebackup.html here when finished -->
+        <!-- start image gallery style 01 section -->
+                <section class="wow fadeIn">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-100px-bottom xs-margin-40px-bottom">
+                                <div class="position-relative overflow-hidden width-100">
+                                    <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase">Project Images</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row lightbox-gallery">
+                            <div class="col-md-12 no-padding xs-padding-15px-lr">
+                                <ul class="portfolio-grid work-3col gutter-medium">
+                                    <li class="grid-sizer"></li>
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg1.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.2s">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg7.png" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.4s">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg2.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg3.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.2s">
+                                        <a href="images/blog-img102.jpg" title="Lightbox gallery image title...">
+                                            <figure>
+
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.4s">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg4.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg5.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.2s">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg7.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                    <!-- start portfolio item -->
+                                    <li class="grid-item web branding design wow fadeInUp" data-wow-delay="0.4s">
+                                            <figure>
+                                                <div class="portfolio-img bg-extra-dark-gray"><img src="public/images/vimg8.jpg" alt="" class="project-img-gallery"/></div>
+                                            </figure>
+                                        </a>
+                                    </li>
+                                    <!-- end portfolio item -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end image gallery style 01 section -->
+
 
         <!-- start blog navigation bar section -->
-        <section class="wow fadeIn no-padding bg-black">
+        <section class="wow fadeIn no-padding">
             <div class="container-fluid">
                 <div class="row">
                     <div class="display-table width-100 padding-30px-lr sm-padding-15px-lr">
@@ -118,12 +279,12 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="width-10 text-center display-table-cell vertical-align-middle">
+                        <!-- <div class="width-10 text-center display-table-cell vertical-align-middle">
                             <a href="index.html" class="blog-nav-link blog-nav-home"><i class="ti-layout-grid2-alt"></i></a>
-                        </div>
+                        </div> -->
                         <div class="width-45 text-right display-table-cell vertical-align-middle">
                             <div class="blog-nav-link blog-nav-link-next text-extra-dark-gray">
-                                <span class="text-medium-gray text-extra-small display-block text-uppercase xs-display-none">Next Project</span>
+                                <span class="text-extra-dark-gray text-extra-small display-block text-uppercase xs-display-none">Next Project</span>
                                 <a href="campuswallet.html">
                                     <i class="ti-arrow-right blog-nav-icon"></i>
                                     Campus Wallet
@@ -138,7 +299,7 @@
 
 
         <!-- start scroll to top -->
-        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+        <!-- <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a> -->
         <!-- end scroll to top  -->
         <!-- javascript libraries -->
         <script type="text/javascript" src="js/jquery.js"></script>
